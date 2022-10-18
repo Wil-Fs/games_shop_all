@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1336px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CCC
+}
+
+
+header li {
+    display: inline;
+    margin-left: 10px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    padding-top: 56px;
+    margin-bottom: 56px;
+}
+
+.sobre img {
+    width: 100%;
+    max-width: 90%;
+}
+
+aside {
+    width: 100%;
+}
+
+.sobre aside h2 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #CCC;
+}
+
+.sobre p {
+    margin: 0 auto;
+    max-width: 90%;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.produtos {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.produtos h2 {
+    padding: 10px 0;
+    border-bottom: 3px solid #CCC;
+    margin-bottom: 56px;
+}
+
+.produto ul {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+}
+
+.produto li {
+    list-style: none;
+}
+
+.produto img {
+    width: 100%;
+    max-height: 215.3px;
+    margin-bottom: 40px;
+}
+
+.produto h3 {
+    font-size: 1.5em;
+}
+
+.produto h3, .produto p {
+    margin-bottom: 15px;
+}
+
+.produto button {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    border: none;
+}
