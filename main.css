@@ -11,23 +11,47 @@
     margin: 0 auto;
 }
 
-header {
+body{
+    background-color: #04030c;
+}
+
+header{
+    background-color: #383140;
+}
+
+header h1,
+header a {
+    color: #f4ed71;
+}
+
+h2 {
+    color: #f4ed71;
+}
+
+h3 {
+    color: #f4ed71;
+}
+
+p {
+    color: #c4be16;
+}
+
+.container-header {
     width: 100%;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #CCC
 }
 
 
-header li {
+.container-header li {
     display: inline;
     margin-left: 10px;
     list-style: none;
 }
 
-header a {
+.container-header a {
     text-decoration: none;
     font-size: 1.3em;
 }
@@ -54,7 +78,7 @@ aside {
 
 .sobre aside h2 {
     padding-bottom: 10px;
-    border-bottom: 3px solid #CCC;
+    border-bottom: 3px solid  #383140;
 }
 
 .sobre p {
@@ -71,7 +95,7 @@ aside {
 
 .produtos h2 {
     padding: 10px 0;
-    border-bottom: 3px solid #CCC;
+    border-bottom: 3px solid #383140;
     margin-bottom: 56px;
 }
 
@@ -101,11 +125,14 @@ aside {
 }
 
 .produto button {
+    color: #f4ed71;
+    background-color: #383140;
     font-size: 1.3em;
     font-weight: bold;
     padding: 8px;
     width: 100%;
     border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 667px){
@@ -114,27 +141,26 @@ aside {
         margin: 0 auto;
     }
 
-    header {
+    .container-header {
         font-size: 0.8em;
         width: 100%;
         padding: 20px 10px;
         display: flex;
         left: 0;
         align-items: center;
-        border-bottom: 1px solid #CCC
     }
     
-    header ul {
+    .container-header ul {
         width: 100%;
         display: block;
     }
 
-    header li {
+    .container-header li {
         margin: 0 10px 10px 0;
         list-style: none;
     }
     
-    header a {
+    .container-header a {
         text-decoration: none;
         font-size: 1.2em;
     }
@@ -164,7 +190,7 @@ aside {
 
 .sobre aside h2 {
     padding-bottom: 10px;
-    border-bottom: 3px solid #CCC;
+    border-bottom: 3px solid #383140;
 }
 
 .sobre p {
@@ -182,7 +208,7 @@ aside {
 
 .produtos h2 {
     padding: 10px 0;
-    border-bottom: 3px solid #CCC;
+    border-bottom: 3px solid #383140;
     margin-bottom: 56px;
 }
 
@@ -244,7 +270,7 @@ aside {
     
     .sobre aside h2 {
         padding-bottom: 10px;
-        border-bottom: 3px solid #CCC;
+        border-bottom: 3px solid #383140;
     }
     
     .sobre p {
@@ -263,7 +289,7 @@ aside {
 
 .produtos h2 {
     padding: 10px 0;
-    border-bottom: 3px solid #CCC;
+    border-bottom: 3px solid #383140;
     margin-bottom: 56px;
 }
 
